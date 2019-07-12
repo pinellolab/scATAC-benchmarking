@@ -1,0 +1,14 @@
+range=50 # range around the Tn5 insertion site for which DNA is scanned for k-mer content
+#bowtieIndex="$HOME/genomes/human/hg19/Bowtie2Index" #index to use for alignment
+logDir="temp_brockman_files" #where to put temp files
+outDir="kmer_frequencies" #where to output results
+#adapterFile="../Resources/NexteraPE-PE.fa" # Nextera adapter sequences for trimming adaptor sequences from reads
+#maxInsertionSize=2000 # maximum insertion size for aligning to the genome
+chromBED="../../chroms.bed" # a BED file where each entry is a chromosome with the start and end marking the first and last bases of the chromosome
+genome2bit="../../../../input/hg19/hg19.2bit" # a two-bit representation of the chromosome sequences
+mitoChrom="chrM" # the mitochondrial chromosome name (excluded from analysis)
+G1BED="../Resources/ReplicationDomains/hg19.K562.G1.bed" #BED file of G1 replication domains 
+G2SBED="../Resources/ReplicationDomains/hg19.K562.G2S.bed" #BED file of G2 replication domains
+sampleFile="sample_list_bam_missing.txt" # file with one sample per line, tab delimited, with first column the (unique) sample ID, the second and third columns are the paths to the corresponding fastq files
+#sampleFile="test.txt"
+bamPath="../../../../input/sc-bams_nodup"
