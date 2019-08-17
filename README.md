@@ -9,7 +9,7 @@ We present a benchmarking framework that was applied to 10 computational methods
 <img src="images/Figure2.png">
 
 
-Please check out our preprint in bioRxiv: [Chen, H. et al. Assessment of computational methods for the analysis of single-cell ATAC-seq data]()
+Please check out our preprint in bioRxiv: [Chen, H. et al. Assessment of computational methods for the analysis of single-cell ATAC-seq data.]()
 
 Single Cell ATAC-seq Benchmarking Framework
 -------------------------------------------
