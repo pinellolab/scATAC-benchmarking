@@ -119,6 +119,25 @@ All the analyses performed are illustrated in Jupyter Notebooks.
 
 ### Synthetic Data
 
+- **Data Simulation** (folder name **'Simulate_scATAC'**)
+  - Bone Marrow
+    - [varying noise levels](https://nbviewer.jupyter.org/github/pinellolab/scATAC-benchmarking/blob/master/Synthetic_Data/Simulate_scATAC/BoneMarrow/simulate_bonemarrow_noise.ipynb?flush_cache=true)
+    - [varying coverages](https://nbviewer.jupyter.org/github/pinellolab/scATAC-benchmarking/blob/master/Synthetic_Data/Simulate_scATAC/BoneMarrow/simulate_bonemarrow_depth.ipynb?flush_cache=true)
+
+  - Erythropoiesis
+    - [varying noise levels](https://nbviewer.jupyter.org/github/pinellolab/scATAC-benchmarking/blob/master/Synthetic_Data/Simulate_scATAC/Erythropoiesis/simulate_erythropoesis.ipynb?flush_cache=true)
+
+- The _**simulated bone marrow (no noise: noise level 0.0)**_ dataset (folder name **'BoneMarrow_clean'**)
+
+- The _**simulated bone marrow (moderate noise: noise level 0.2)**_ dataset (folder name **'BoneMarrow_noisy_p2'**)
+
+- The _**simulated bone marrow (high noise: noise level 0.4)**_ dataset (folder name **'BoneMarrow_noisy_p4'**)
+
+- The _**simulated erythropoiesis (no noise: noise level 0.0)**_ dataset (folder name **'Erythropoiesis_clean'**)
+
+- The _**simulated erythropoiesis (moderate noise: noise level 0.2)**_ dataset (folder name **'Erythropoiesis_noisy_p2'**)
+
+- The _**simulated erythropoiesis (high noise: noise level 0.4)**_ dataset (folder name **'Erythropoiesis_noisy_p4'**)
 
 
 ### Extra
