@@ -9,7 +9,7 @@ We present a benchmarking framework that was applied to 10 computational methods
 <img src="images/Figure2.png">
 
 
-Please check out our preprint in BioRxiv: 
+Please check out our preprint in bioRxiv: [Chen, H. et al. Assessment of computational methods for the analysis of single-cell ATAC-seq data]()
 
 Single Cell ATAC-seq Benchmarking Framework
 -------------------------------------------
@@ -20,26 +20,27 @@ Single Cell ATAC-seq Benchmarking Framework
 
   - input
   - run_methods
-    - BROCKMAN
-    - chromVAR
-    - Cicero
-    - cisTopic
-    - Control
-    - Cusanovich2018
-    - GeneScoring
-    - scABC
-    - Scasat
-    - SCRAT
-    - SnapATAC
-  - clustering
-  - UMAP visualization
+    - [BROCKMAN](https://nbviewer.jupyter.org/github/pinellolab/scATAC-benchmarking/blob/master/Real_Data/Buenrostro_2018/run_methods/BROCKMAN/BROCKMAN_buenrostro2018.ipynb?flush_cache=true)
+    - [chromVAR-kmers](https://nbviewer.jupyter.org/github/pinellolab/scATAC-benchmarking/blob/master/Real_Data/Buenrostro_2018/run_methods/chromVAR/chromVAR_buenrostro2018_kmers.ipynb?flush_cache=true)
+    - [chromVAR-motifs](https://nbviewer.jupyter.org/github/pinellolab/scATAC-benchmarking/blob/master/Real_Data/Buenrostro_2018/run_methods/chromVAR/chromVAR_buenrostro2018_motifs.ipynb?flush_cache=true)
+    - [Cicero](https://nbviewer.jupyter.org/github/pinellolab/scATAC-benchmarking/blob/master/Real_Data/Buenrostro_2018/run_methods/Cicero/Cicero_buenrostro2018.ipynb?flush_cache=true)
+    - [cisTopic](https://nbviewer.jupyter.org/github/pinellolab/scATAC-benchmarking/blob/master/Real_Data/Buenrostro_2018/run_methods/Cicero/Cicero_buenrostro2018.ipynb?flush_cache=true)
+    - [Control](https://nbviewer.jupyter.org/github/pinellolab/scATAC-benchmarking/blob/master/Real_Data/Buenrostro_2018/run_methods/Control/Control_buenrostro2018.ipynb?flush_cache=true)
+    - [Cusanovich2018](https://nbviewer.jupyter.org/github/pinellolab/scATAC-benchmarking/blob/master/Real_Data/Buenrostro_2018/run_methods/Cusanovich2018/Cusanovich2018_buenrostro2018.ipynb?flush_cache=true)
+    - [GeneScoring](https://nbviewer.jupyter.org/github/pinellolab/scATAC-benchmarking/blob/master/Real_Data/Buenrostro_2018/run_methods/GeneScoring/GeneScoring_buenrostro2018.ipynb?flush_cache=true)
+    - [scABC](https://nbviewer.jupyter.org/github/pinellolab/scATAC-benchmarking/blob/master/Real_Data/Buenrostro_2018/run_methods/scABC/scABC_buenrostro2018.ipynb?flush_cache=true)
+    - [Scasat](https://nbviewer.jupyter.org/github/pinellolab/scATAC-benchmarking/blob/master/Real_Data/Buenrostro_2018/run_methods/Scasat/Scasat_buenrostro2018.ipynb?flush_cache=true)
+    - [SCRAT](https://nbviewer.jupyter.org/github/pinellolab/scATAC-benchmarking/blob/master/Real_Data/Buenrostro_2018/run_methods/SCRAT/SCRAT_buenrostro2018.ipynb?flush_cache=true)
+    - [SnapATAC](https://nbviewer.jupyter.org/github/pinellolab/scATAC-benchmarking/blob/master/Real_Data/Buenrostro_2018/run_methods/SnapATAC/SnapATAC_buenrostro2018.ipynb?flush_cache=true)
+  - [clustering](https://nbviewer.jupyter.org/github/pinellolab/scATAC-benchmarking/blob/master/Real_Data/Buenrostro_2018/run_clustering_buenrostro2018.ipynb?flush_cache=true)
+  - [UMAP visualization](https://nbviewer.jupyter.org/github/pinellolab/scATAC-benchmarking/blob/master/Real_Data/Buenrostro_2018/run_umap_buenrostro2018.ipynb?flush_cache=true)
   - end-to-end clustering (folder name 'extra_clustering')
-    - Cicero
-    - cisTopic
-    - Cusanovich2018
-    - scABC
-    - Scasat
-    - SnapATAC
+    - [Cicero](hhttps://nbviewer.jupyter.org/github/pinellolab/scATAC-benchmarking/blob/master/Real_Data/Buenrostro_2018/extra_clustering/Cicero/Cicero_buenrostro2018.ipynb?flush_cache=true)
+    - [cisTopic](https://nbviewer.jupyter.org/github/pinellolab/scATAC-benchmarking/blob/master/Real_Data/Buenrostro_2018/extra_clustering/cisTopic/cisTopic_buenrostro2018.ipynb?flush_cache=true)
+    - [Cusanovich2018](https://nbviewer.jupyter.org/github/pinellolab/scATAC-benchmarking/blob/master/Real_Data/Buenrostro_2018/extra_clustering/Cusanovich2018/Cusanovich2018_buenrostro2018.ipynb?flush_cache=true)
+    - [scABC](https://nbviewer.jupyter.org/github/pinellolab/scATAC-benchmarking/blob/master/Real_Data/Buenrostro_2018/extra_clustering/scABC/scABC_buenrostro2018.ipynb?flush_cache=true)
+    - [Scasat](https://nbviewer.jupyter.org/github/pinellolab/scATAC-benchmarking/blob/master/Real_Data/Buenrostro_2018/extra_clustering/Scasat/Scasat_buenrostro2018.ipynb?flush_cache=true)
+    - [SnapATAC](https://nbviewer.jupyter.org/github/pinellolab/scATAC-benchmarking/blob/master/Real_Data/Buenrostro_2018/extra_clustering/SnapATAC/SnapATAC_buenrostro2018.ipynb?flush_cache=true)
 
 - The _**Buenrostro2018 using bulk peaks**_ dataset (folder name **'Buenrostro_2018_bulkpeaks'**)
 
