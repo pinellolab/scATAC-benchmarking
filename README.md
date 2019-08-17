@@ -14,7 +14,9 @@ Please check out our preprint in bioRxiv: [Chen, H. et al. Assessment of computa
 Single Cell ATAC-seq Benchmarking Framework
 -------------------------------------------
 
-* Real Data
+All the analyses performed are illustrated in Jupyter Notebooks.
+
+### Real Data
 
 - The _**Buenrostro2018**_ dataset (folder name **'Buenrostro_2018'**)
 
@@ -115,10 +117,10 @@ Single Cell ATAC-seq Benchmarking Framework
   - [UMAP visualization](https://nbviewer.jupyter.org/github/pinellolab/scATAC-benchmarking/blob/master/Real_Data/Cusanovich_2018/run_umap_cusanovich2018.ipynb?flush_cache=true)
 
 
-* Synthetic Data
+### Synthetic Data
 
 
 
-* Extra
+### Extra
 
 
