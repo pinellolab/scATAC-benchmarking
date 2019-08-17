@@ -14,6 +14,11 @@ Please check out our preprint in bioRxiv: [Chen, H. et al. Assessment of computa
 Single Cell ATAC-seq Benchmarking Framework
 -------------------------------------------
 
+Our benchmarking results highlight SnapATAC, cisTopic, and Cusanovich2018 as the top performing scATAC-seq data analysis methods to perform clustering across all datasets and different metrics. Methods that preserve information at the peak-level (cisTopic, Cusanovich2018, Scasat) or bin-level (SnapATAC) generally outperform those that summarize accessible chromatin regions at the motif/k-mer level (chromVAR, BROCKMAN, SCRAT) or over the gene-body (Cicero, Gene Scoring). In addition, methods that implement a dimensionality reduction step (BROCKMAN, cisTopic, Cusanovich2018, Scasat, SnapATAC) generally show advantages over the other methods without this important step. SnapATAC is the most scalable method; it was the only method capable of processing more than 80,000 cells. Cusanovich2018 is the method that best balances analysis performance and running time. 
+
+<img src="images/Figure7.png">
+
+
 All the analyses performed are illustrated in Jupyter Notebooks.
 
 ### Real Data
