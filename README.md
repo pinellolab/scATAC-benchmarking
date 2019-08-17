@@ -202,3 +202,4 @@ All the analyses performed are illustrated in Jupyter Notebooks.
 ### Extra
 
 
+Credits: H Chen, C Lareau, T Andreani, ME Vinyard, SP Garcia, K Clement, MA Andrade-Navarro, JD Buenrostro, L Pinello
