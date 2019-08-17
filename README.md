@@ -14,4 +14,28 @@ Please check out our preprint in BioRxiv:
 Single Cell ATAC-seq Benchmarking Framework
 -------------------------------------------
 
+* Real Data
+
+- the *Buenrostro2018* dataset (folder name 'Buenrostro_2018')
+
+
+- the *Buenrostro2018 using bulk peaks* dataset (folder name 'Buenrostro_2018_bulkpeaks')
+
+
+- the *10X PBMCs* dataset (folder name '10x_PBMC_5k')
+
+
+- the *downsampled sci-ATAC-seq-mouse* dataset (folder name 'Cusanovich_2018_subset')
+
+
+- the *full sci-ATAC-seq-mouse* dataset (folder name 'Cusanovich_2018')
+
+
+
+* Synthetic Data
+
+
+
+* Extra
+
 
