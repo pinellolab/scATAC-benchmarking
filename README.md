@@ -207,8 +207,18 @@ All the analyses performed are illustrated in Jupyter Notebooks.
   - [on the *downsampled sci-ATAC-seq-mouse* dataset](https://nbviewer.jupyter.org/github/pinellolab/scATAC-benchmarking/blob/master/Extra/Cusanovich_2018_subset/test_firstPC/test_firstPC_cusanovich2018subset.ipynb?flush_cache=true)
 
 - Test peaks
+  - frequency-based peak selection
+    - [Control on the *Buenrostro2018* dataset](https://nbviewer.jupyter.org/github/pinellolab/scATAC-benchmarking/blob/master/Extra/Buenrostro_2018/test_peaks/Control/Control_peaks_frequency.ipynb?flush_cache=true)
+    - [Control on the *simulated bone marrow (noise level 0.2)* dataset](https://nbviewer.jupyter.org/github/pinellolab/scATAC-benchmarking/blob/master/Extra/BoneMarrow_noisy_p2/test_peaks/Control/Control_peaks_frequency.ipynb?flush_cache=true)
+    - [Cusanovich2018 on the *Buenrostro2018* dataset](https://nbviewer.jupyter.org/github/pinellolab/scATAC-benchmarking/blob/master/Extra/Buenrostro_2018/test_peaks/Cusanovich2018/Cusanovich2018_peaks_frequency.ipynb?flush_cache=true)
+    - [Cusanovich2018 on the *simulated bone marrow (noise level 0.2)* dataset](https://nbviewer.jupyter.org/github/pinellolab/scATAC-benchmarking/blob/master/Extra/BoneMarrow_noisy_p2/test_peaks/Cusanovich2018/Cusanovich2018_peaks_frequency.ipynb?flush_cache=true)
+  - intensity-based peak selection
+    - [Control on the *Buenrostro2018* dataset](https://nbviewer.jupyter.org/github/pinellolab/scATAC-benchmarking/blob/master/Extra/Buenrostro_2018/test_peaks/Control/Control_peaks_intensity.ipynb?flush_cache=true)
+    - [Control on the *simulated bone marrow (noise level 0.2)* dataset](https://nbviewer.jupyter.org/github/pinellolab/scATAC-benchmarking/blob/master/Extra/BoneMarrow_noisy_p2/test_peaks/Control/Control_peaks_intensity.ipynb?flush_cache=true)
+    - [Cusanovich2018 on the *Buenrostro2018* dataset](https://nbviewer.jupyter.org/github/pinellolab/scATAC-benchmarking/blob/master/Extra/Buenrostro_2018/test_peaks/Cusanovich2018/Cusanovich2018_peaks_frequency.ipynb?flush_cache=true)
+    - [Cusanovich2018 on the *simulated bone marrow (noise level 0.2)* dataset](https://nbviewer.jupyter.org/github/pinellolab/scATAC-benchmarking/blob/master/Extra/BoneMarrow_noisy_p2/test_peaks/Cusanovich2018/Cusanovich2018_peaks_frequency.ipynb?flush_cache=true)
 
-
+-
 
 
 
