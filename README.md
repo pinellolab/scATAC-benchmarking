@@ -218,8 +218,16 @@ All the analyses performed are illustrated in Jupyter Notebooks.
     - [Cusanovich2018 on the *Buenrostro2018* dataset](https://nbviewer.jupyter.org/github/pinellolab/scATAC-benchmarking/blob/master/Extra/Buenrostro_2018/test_peaks/Cusanovich2018/Cusanovich2018_peaks_frequency.ipynb?flush_cache=true)
     - [Cusanovich2018 on the *simulated bone marrow (noise level 0.2)* dataset](https://nbviewer.jupyter.org/github/pinellolab/scATAC-benchmarking/blob/master/Extra/BoneMarrow_noisy_p2/test_peaks/Cusanovich2018/Cusanovich2018_peaks_frequency.ipynb?flush_cache=true)
 
--
+- Test pseudo-bulk
+  - [Cusanovich2018 on the *Buenrostro2018* dataset](https://nbviewer.jupyter.org/github/pinellolab/scATAC-benchmarking/blob/master/Extra/Buenrostro_2018/test_pseudobulk/Cusanovich2018_buenrostro2018_idenfify_clades.ipynb?flush_cache=true)
+  - [Cusanovich2018 on the *10X PBMCs* dataset](https://nbviewer.jupyter.org/github/pinellolab/scATAC-benchmarking/blob/master/Extra/10x_PBMC_5k/test_pseudobulk/Cusanovich2018_10xpbmc5k_idenfify_clades.ipynb?flush_cache=true)
+  - [Cusanovich2018 on the *downsampled sci-ATAC-seq-mouse* dataset](https://nbviewer.jupyter.org/github/pinellolab/scATAC-benchmarking/blob/master/Extra/Cusanovich_2018_subset/test_pseudobulk/Cusanovich2018_cusanovich2018subset_idenfify_clades.ipynb?flush_cache=true)
 
+- Test blacklist
+  - [SCRAT on the *Buenrostro2018* dataset](https://nbviewer.jupyter.org/github/pinellolab/scATAC-benchmarking/blob/master/Extra/Buenrostro_2018/test_blacklist/SCRAT_buenrostro2018-blacklist-rm.ipynb?flush_cache=true)
+  - [SnapATAC on the *Buenrostro2018* dataset](https://nbviewer.jupyter.org/github/pinellolab/scATAC-benchmarking/blob/master/Extra/Buenrostro_2018/test_blacklist/SnapATAC_buenrostro2018-blacklist-rm.ipynb?flush_cache=true)
 
+- Test parameter settings
+  - [SCRAT: log2transform and adjustlen](https://nbviewer.jupyter.org/github/pinellolab/scATAC-benchmarking/blob/master/Extra/test_SCRAT/test_SCRAT_parameters.ipynb?flush_cache=true)
 
 Credits: H Chen, C Lareau, T Andreani, ME Vinyard, SP Garcia, K Clement, MA Andrade-Navarro, JD Buenrostro, L Pinello
