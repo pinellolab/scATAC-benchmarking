@@ -201,5 +201,15 @@ All the analyses performed are illustrated in Jupyter Notebooks.
 
 ### Extra
 
+- Test first PC
+  - [on the *Buenrostro2018* dataset](https://nbviewer.jupyter.org/github/pinellolab/scATAC-benchmarking/blob/master/Extra/Buenrostro_2018/test_firstPC/test_firstPC_buenrostro2018.ipynb?flush_cache=true)
+  - [on the *10X PBMCs* dataset](https://nbviewer.jupyter.org/github/pinellolab/scATAC-benchmarking/blob/master/Extra/10x_PBMC_5k/test_firstPC/test_firstPC_10xPBMC5k.ipynb?flush_cache=true)
+  - [on the *downsampled sci-ATAC-seq-mouse* dataset](https://nbviewer.jupyter.org/github/pinellolab/scATAC-benchmarking/blob/master/Extra/Cusanovich_2018_subset/test_firstPC/test_firstPC_cusanovich2018subset.ipynb?flush_cache=true)
+
+- Test peaks
+
+
+
+
 
 Credits: H Chen, C Lareau, T Andreani, ME Vinyard, SP Garcia, K Clement, MA Andrade-Navarro, JD Buenrostro, L Pinello
