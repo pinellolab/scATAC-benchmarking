@@ -1,0 +1,11 @@
+These bed files represent replication domains as defined by the Encode project's repli-seq data for K562 cells.
+
+They were downloaded as follows:
+wget http://hgdownload.cse.ucsc.edu/goldenPath/hg19/encodeDCC/wgEncodeUwRepliSeq/wgEncodeUwRepliSeqK562G1PctSignalRep1.bigWig
+wget http://hgdownload.cse.ucsc.edu/goldenPath/hg19/encodeDCC/wgEncodeUwRepliSeq/wgEncodeUwRepliSeqK562S1PctSignalRep1.bigWig
+wget http://hgdownload.cse.ucsc.edu/goldenPath/hg19/encodeDCC/wgEncodeUwRepliSeq/wgEncodeUwRepliSeqK562S2PctSignalRep1.bigWig
+wget http://hgdownload.cse.ucsc.edu/goldenPath/hg19/encodeDCC/wgEncodeUwRepliSeq/wgEncodeUwRepliSeqK562S3PctSignalRep1.bigWig
+wget http://hgdownload.cse.ucsc.edu/goldenPath/hg19/encodeDCC/wgEncodeUwRepliSeq/wgEncodeUwRepliSeqK562S4PctSignalRep1.bigWig
+wget http://hgdownload.cse.ucsc.edu/goldenPath/hg19/encodeDCC/wgEncodeUwRepliSeq/wgEncodeUwRepliSeqK562G2PctSignalRep1.bigWig
+
+and replication domains were then classified as regions with a repliseq signal above 25. These domains were then grouped into G2/S[1-4] (G2S) and G1 by merging the regions with BEDTools.
