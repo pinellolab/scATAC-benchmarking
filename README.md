@@ -25,7 +25,7 @@ All the analyses performed are illustrated in Jupyter Notebooks.
 
 - The _**Buenrostro2018**_ dataset (folder **'Buenrostro_2018'**)
 
-  - input
+  - [input](https://github.com/pinellolab/scATAC-benchmarking/tree/master/Real_Data/Buenrostro_2018/input)
   - run_methods
     - [BROCKMAN](https://nbviewer.jupyter.org/github/pinellolab/scATAC-benchmarking/blob/master/Real_Data/Buenrostro_2018/run_methods/BROCKMAN/BROCKMAN_buenrostro2018.ipynb?flush_cache=true)
     - [chromVAR-kmers](https://nbviewer.jupyter.org/github/pinellolab/scATAC-benchmarking/blob/master/Real_Data/Buenrostro_2018/run_methods/chromVAR/chromVAR_buenrostro2018_kmers.ipynb?flush_cache=true)
@@ -51,7 +51,7 @@ All the analyses performed are illustrated in Jupyter Notebooks.
   - [end-to-end clustering evaluation](https://nbviewer.jupyter.org/github/pinellolab/scATAC-benchmarking/blob/master/Real_Data/Buenrostro_2018/extra_clustering/run_metrics_buenrostro2018.ipynb?flush_cache=true)
 
 - The _**Buenrostro2018 using bulk peaks**_ dataset (folder **'Buenrostro_2018_bulkpeaks'**)
-  - input
+  - [input](https://github.com/pinellolab/scATAC-benchmarking/tree/master/Real_Data/Buenrostro_2018_bulkpeaks/input)
   - run_methods
     - [chromVAR-kmers](https://nbviewer.jupyter.org/github/pinellolab/scATAC-benchmarking/blob/master/Real_Data/Buenrostro_2018_bulkpeaks/run_methods/chromVAR/chromVAR_buenrostro2018bulkpeaks_kmers.ipynb?flush_cache=true)
     - [chromVAR-motifs](https://nbviewer.jupyter.org/github/pinellolab/scATAC-benchmarking/blob/master/Real_Data/Buenrostro_2018_bulkpeaks/run_methods/chromVAR/chromVAR_buenrostro2018bulkpeaks_motifs?flush_cache=true)
@@ -66,7 +66,7 @@ All the analyses performed are illustrated in Jupyter Notebooks.
   - [UMAP visualization](https://nbviewer.jupyter.org/github/pinellolab/scATAC-benchmarking/blob/master/Real_Data/Buenrostro_2018_bulkpeaks/run_umap_buenrostro2018bulkpeaks.ipynb?flush_cache=true)
 
 - The _**10X PBMCs**_ dataset (folder **'10x_PBMC_5k'**)
-  - input
+  - [input](https://github.com/pinellolab/scATAC-benchmarking/tree/master/Real_Data/10x_PBMC_5k/input)
   - run_methods
     - [BROCKMAN](https://nbviewer.jupyter.org/github/pinellolab/scATAC-benchmarking/blob/master/Real_Data/10x_PBMC_5k/run_methods/BROCKMAN/BROCKMAN_10xpbmc5k.ipynb?flush_cache=true)
     - [chromVAR-kmers](https://nbviewer.jupyter.org/github/pinellolab/scATAC-benchmarking/blob/master/Real_Data/10x_PBMC_5k/run_methods/chromVAR/chromVAR_10xpbmc5k_kmers.ipynb?flush_cache=true)
@@ -92,7 +92,7 @@ All the analyses performed are illustrated in Jupyter Notebooks.
   - [end-to-end clustering evaluation](https://nbviewer.jupyter.org/github/pinellolab/scATAC-benchmarking/blob/master/Real_Data/10x_PBMC_5k/extra_clustering/run_metrics_10xpbmc.ipynb?flush_cache=true)
 
 - The _**downsampled sci-ATAC-seq-mouse**_ dataset (folder **'Cusanovich_2018_subset'**)
-  - input
+  - [input](https://github.com/pinellolab/scATAC-benchmarking/tree/master/Real_Data/Cusanovich_2018_subset/input)
   - run_methods
     - [BROCKMAN](https://nbviewer.jupyter.org/github/pinellolab/scATAC-benchmarking/blob/master/Real_Data/Cusanovich_2018_subset/run_methods/BROCKMAN/BROCKMAN_cusanovich2018subset.ipynb?flush_cache=true)
     - [chromVAR-kmers](https://nbviewer.jupyter.org/github/pinellolab/scATAC-benchmarking/blob/master/Real_Data/Cusanovich_2018_subset/run_methods/chromVAR/chromVAR_cusanovich2018subset_kmers.ipynb?flush_cache=true)
@@ -118,7 +118,7 @@ All the analyses performed are illustrated in Jupyter Notebooks.
   - [end-to-end clustering evaluation](https://nbviewer.jupyter.org/github/pinellolab/scATAC-benchmarking/blob/master/Real_Data/Cusanovich_2018_subset/extra_clustering/run_metrics_cusanovich2018subset.ipynb?flush_cache=true)
 
 - The _**full sci-ATAC-seq-mouse**_ dataset (folder **'Cusanovich_2018'**)
-  - input
+  - [input](https://github.com/pinellolab/scATAC-benchmarking/tree/master/Real_Data/Cusanovich_2018/input)
   - run_methods
     - [SnapATAC](https://nbviewer.jupyter.org/github/pinellolab/scATAC-benchmarking/blob/master/Real_Data/Cusanovich_2018/run_methods/SnapATAC/SnapATAC_cusanovich2018.ipynb?flush_cache=true)
   - [clustering evaluation](https://nbviewer.jupyter.org/github/pinellolab/scATAC-benchmarking/blob/master/Real_Data/Cusanovich_2018/run_clustering_cusanovich2018.ipynb?flush_cache=true)
