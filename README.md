@@ -19,7 +19,9 @@ Our benchmarking results highlight SnapATAC, cisTopic, and Cusanovich2018 as the
 <img src="images/Figure7.png">
 
 
-All the analyses performed are illustrated in Jupyter Notebooks.
+All the analyses performed are illustrated in Jupyter Notebooks. 
+
+For each dataset folder, The folder **'output'** stores all the output files and it consists of five sub-folders including **'feature_matrices'**, **umap_rds**, **clusters**, **metrics**, and **figures**.
 
 ### Real Data
 
@@ -49,6 +51,7 @@ All the analyses performed are illustrated in Jupyter Notebooks.
     - [Scasat](https://nbviewer.jupyter.org/github/pinellolab/scATAC-benchmarking/blob/master/Real_Data/Buenrostro_2018/extra_clustering/Scasat/Scasat_buenrostro2018.ipynb?flush_cache=true)
     - [SnapATAC](https://nbviewer.jupyter.org/github/pinellolab/scATAC-benchmarking/blob/master/Real_Data/Buenrostro_2018/extra_clustering/SnapATAC/SnapATAC_buenrostro2018.ipynb?flush_cache=true)
   - [end-to-end clustering evaluation](https://nbviewer.jupyter.org/github/pinellolab/scATAC-benchmarking/blob/master/Real_Data/Buenrostro_2018/extra_clustering/run_metrics_buenrostro2018.ipynb?flush_cache=true)
+  - output
 
 - The _**Buenrostro2018 using bulk peaks**_ dataset (folder **'Buenrostro_2018_bulkpeaks'**)
   - [input](https://github.com/pinellolab/scATAC-benchmarking/tree/master/Real_Data/Buenrostro_2018_bulkpeaks/input)
@@ -64,6 +67,7 @@ All the analyses performed are illustrated in Jupyter Notebooks.
     - [Scasat](https://nbviewer.jupyter.org/github/pinellolab/scATAC-benchmarking/blob/master/Real_Data/Buenrostro_2018_bulkpeaks/run_methods/Scasat/Scasat_buenrostro2018bulkpeaks.ipynb?flush_cache=true)
   - [clustering evaluation](https://nbviewer.jupyter.org/github/pinellolab/scATAC-benchmarking/blob/master/Real_Data/Buenrostro_2018_bulkpeaks/run_clustering_buenrostro2018bulkpeaks.ipynb?flush_cache=true)
   - [UMAP visualization](https://nbviewer.jupyter.org/github/pinellolab/scATAC-benchmarking/blob/master/Real_Data/Buenrostro_2018_bulkpeaks/run_umap_buenrostro2018bulkpeaks.ipynb?flush_cache=true)
+  - output
 
 - The _**10X PBMCs**_ dataset (folder **'10x_PBMC_5k'**)
   - [input](https://github.com/pinellolab/scATAC-benchmarking/tree/master/Real_Data/10x_PBMC_5k/input)
@@ -90,6 +94,7 @@ All the analyses performed are illustrated in Jupyter Notebooks.
     - [Scasat](https://nbviewer.jupyter.org/github/pinellolab/scATAC-benchmarking/blob/master/Real_Data/Buenrostro_2018/extra_clustering/Scasat/Scasat_10xpbmc5k.ipynb?flush_cache=true)
     - [SnapATAC](https://nbviewer.jupyter.org/github/pinellolab/scATAC-benchmarking/blob/master/Real_Data/Buenrostro_2018/extra_clustering/SnapATAC/SnapATAC_10xpbmc5k.ipynb?flush_cache=true)
   - [end-to-end clustering evaluation](https://nbviewer.jupyter.org/github/pinellolab/scATAC-benchmarking/blob/master/Real_Data/10x_PBMC_5k/extra_clustering/run_metrics_10xpbmc.ipynb?flush_cache=true)
+  - output
 
 - The _**downsampled sci-ATAC-seq-mouse**_ dataset (folder **'Cusanovich_2018_subset'**)
   - [input](https://github.com/pinellolab/scATAC-benchmarking/tree/master/Real_Data/Cusanovich_2018_subset/input)
@@ -116,6 +121,7 @@ All the analyses performed are illustrated in Jupyter Notebooks.
     - [Scasat](https://nbviewer.jupyter.org/github/pinellolab/scATAC-benchmarking/blob/master/Real_Data/Cusanovich_2018_subset/extra_clustering/Scasat/Scasat_cusanovich2018subset.ipynb?flush_cache=true)
     - [SnapATAC](https://nbviewer.jupyter.org/github/pinellolab/scATAC-benchmarking/blob/master/Real_Data/Cusanovich_2018_subset/extra_clustering/SnapATAC/SnapATAC_cusanovich2018subset.ipynb?flush_cache=true)
   - [end-to-end clustering evaluation](https://nbviewer.jupyter.org/github/pinellolab/scATAC-benchmarking/blob/master/Real_Data/Cusanovich_2018_subset/extra_clustering/run_metrics_cusanovich2018subset.ipynb?flush_cache=true)
+  - output
 
 - The _**full sci-ATAC-seq-mouse**_ dataset (folder **'Cusanovich_2018'**)
   - [input](https://github.com/pinellolab/scATAC-benchmarking/tree/master/Real_Data/Cusanovich_2018/input)
@@ -123,6 +129,7 @@ All the analyses performed are illustrated in Jupyter Notebooks.
     - [SnapATAC](https://nbviewer.jupyter.org/github/pinellolab/scATAC-benchmarking/blob/master/Real_Data/Cusanovich_2018/run_methods/SnapATAC/SnapATAC_cusanovich2018.ipynb?flush_cache=true)
   - [clustering evaluation](https://nbviewer.jupyter.org/github/pinellolab/scATAC-benchmarking/blob/master/Real_Data/Cusanovich_2018/run_clustering_cusanovich2018.ipynb?flush_cache=true)
   - [UMAP visualization](https://nbviewer.jupyter.org/github/pinellolab/scATAC-benchmarking/blob/master/Real_Data/Cusanovich_2018/run_umap_cusanovich2018.ipynb?flush_cache=true)
+  - output
 
 
 ### Synthetic Data
@@ -140,66 +147,77 @@ All the analyses performed are illustrated in Jupyter Notebooks.
   - [run_methods](https://nbviewer.jupyter.org/github/pinellolab/scATAC-benchmarking/blob/master/Synthetic_Data/BoneMarrow_clean/run_methods/run_methods_bonemarrow_clean.ipynb?flush_cache=true)
   - [clustering evaluation](https://nbviewer.jupyter.org/github/pinellolab/scATAC-benchmarking/blob/master/Synthetic_Data/BoneMarrow_clean/run_clustering_bonemarrow_clean.ipynb?flush_cache=true)
   - [UMAP visualization](https://nbviewer.jupyter.org/github/pinellolab/scATAC-benchmarking/blob/master/Synthetic_Data/BoneMarrow_clean/run_plots_bonemarrow_clean.ipynb?flush_cache=true)
+  - output
 
 - The _**simulated bone marrow (noise level 0.2)**_ dataset (folder **'BoneMarrow_noisy_p2'**)
   - [input](https://github.com/pinellolab/scATAC-benchmarking/tree/master/Synthetic_Data/BoneMarrow_noisy_p2/input)
   - [run_methods](https://nbviewer.jupyter.org/github/pinellolab/scATAC-benchmarking/blob/master/Synthetic_Data/BoneMarrow_noisy_p2/run_methods/run_methods_bonemarrow_noisy_p2.ipynb?flush_cache=true)
   - [clustering evaluation](https://nbviewer.jupyter.org/github/pinellolab/scATAC-benchmarking/blob/master/Synthetic_Data/BoneMarrow_noisy_p2/run_clustering_bonemarrow_noisy_p2.ipynb?flush_cache=true)
   - [UMAP visualization](https://nbviewer.jupyter.org/github/pinellolab/scATAC-benchmarking/blob/master/Synthetic_Data/BoneMarrow_noisy_p2/run_plots_bonemarrow_noisy_p2.ipynb?flush_cache=true)
+  - output
 
 - The _**simulated bone marrow (noise level 0.4)**_ dataset (folder **'BoneMarrow_noisy_p4'**)
   - [input](https://github.com/pinellolab/scATAC-benchmarking/tree/master/Synthetic_Data/BoneMarrow_noisy_p4/input)
   - [run_methods](https://nbviewer.jupyter.org/github/pinellolab/scATAC-benchmarking/blob/master/Synthetic_Data/BoneMarrow_noisy_p4/run_methods/run_methods_bonemarrow_noisy_p4.ipynb?flush_cache=true)
   - [clustering evaluation](https://nbviewer.jupyter.org/github/pinellolab/scATAC-benchmarking/blob/master/Synthetic_Data/BoneMarrow_noisy_p4/run_clustering_bonemarrow_noisy_p4.ipynb?flush_cache=true)
   - [UMAP visualization](https://nbviewer.jupyter.org/github/pinellolab/scATAC-benchmarking/blob/master/Synthetic_Data/BoneMarrow_noisy_p4/run_plots_bonemarrow_noisy_p4.ipynb?flush_cache=true)
+  - output
 
 - The _**simulated bone marrow (coverage 5k reads)**_ dataset (folder **'BoneMarrow_cov5000'**)
   - [input](https://github.com/pinellolab/scATAC-benchmarking/tree/master/Synthetic_Data/BoneMarrow_cov5000/input)
   - [run_methods](https://nbviewer.jupyter.org/github/pinellolab/scATAC-benchmarking/blob/master/Synthetic_Data/BoneMarrow_cov5000/run_methods/run_methods_bonemarrow_cov5000.ipynb?flush_cache=true)
   - [clustering evaluation](https://nbviewer.jupyter.org/github/pinellolab/scATAC-benchmarking/blob/master/Synthetic_Data/BoneMarrow_cov5000/run_clustering_bonemarrow_cov5000.ipynb?flush_cache=true)
   - [UMAP visualization](https://nbviewer.jupyter.org/github/pinellolab/scATAC-benchmarking/blob/master/Synthetic_Data/BoneMarrow_cov5000/run_plots_bonemarrow_cov5000.ipynb?flush_cache=true)
+  - output
 
 - The _**simulated bone marrow (coverage 2.5k reads)**_ dataset (folder **'BoneMarrow_cov2500'**)
   - [input](https://github.com/pinellolab/scATAC-benchmarking/tree/master/Synthetic_Data/BoneMarrow_cov2500/input)
   - [run_methods](https://nbviewer.jupyter.org/github/pinellolab/scATAC-benchmarking/blob/master/Synthetic_Data/BoneMarrow_cov2500/run_methods/run_methods_bonemarrow_cov2500.ipynb?flush_cache=true)
   - [clustering evaluation](https://nbviewer.jupyter.org/github/pinellolab/scATAC-benchmarking/blob/master/Synthetic_Data/BoneMarrow_cov2500/run_clustering_bonemarrow_cov2500.ipynb?flush_cache=true)
   - [UMAP visualization](https://nbviewer.jupyter.org/github/pinellolab/scATAC-benchmarking/blob/master/Synthetic_Data/BoneMarrow_cov2500/run_plots_bonemarrow_cov2500.ipynb?flush_cache=true)
+  - output
 
 - The _**simulated bone marrow (coverage 1k reads)**_ dataset (folder **'BoneMarrow_cov1000'**)
   - [input](https://github.com/pinellolab/scATAC-benchmarking/tree/master/Synthetic_Data/BoneMarrow_cov1000/input)
   - [run_methods](https://nbviewer.jupyter.org/github/pinellolab/scATAC-benchmarking/blob/master/Synthetic_Data/BoneMarrow_cov1000/run_methods/run_methods_bonemarrow_cov1000.ipynb?flush_cache=true)
   - [clustering evaluation](https://nbviewer.jupyter.org/github/pinellolab/scATAC-benchmarking/blob/master/Synthetic_Data/BoneMarrow_cov1000/run_clustering_bonemarrow_cov1000.ipynb?flush_cache=true)
   - [UMAP visualization](https://nbviewer.jupyter.org/github/pinellolab/scATAC-benchmarking/blob/master/Synthetic_Data/BoneMarrow_cov1000/run_plots_bonemarrow_cov1000.ipynb?flush_cache=true)
+  - output
 
 - The _**simulated bone marrow (coverage 500 reads)**_ dataset (folder **'BoneMarrow_cov500'**)
   - [input](https://github.com/pinellolab/scATAC-benchmarking/tree/master/Synthetic_Data/BoneMarrow_cov500/input)
   - [run_methods](https://nbviewer.jupyter.org/github/pinellolab/scATAC-benchmarking/blob/master/Synthetic_Data/BoneMarrow_cov500/run_methods/run_methods_bonemarrow_cov500.ipynb?flush_cache=true)
   - [clustering evaluation](https://nbviewer.jupyter.org/github/pinellolab/scATAC-benchmarking/blob/master/Synthetic_Data/BoneMarrow_cov500/run_clustering_bonemarrow_cov500.ipynb?flush_cache=true)
   - [UMAP visualization](https://nbviewer.jupyter.org/github/pinellolab/scATAC-benchmarking/blob/master/Synthetic_Data/BoneMarrow_cov500/run_plots_bonemarrow_cov500.ipynb?flush_cache=true)
+  - output
 
 - The _**simulated bone marrow (coverage 250 reads)**_ dataset (folder **'BoneMarrow_cov250'**)
   - [input](https://github.com/pinellolab/scATAC-benchmarking/tree/master/Synthetic_Data/BoneMarrow_cov250/input)
   - [run_methods](https://nbviewer.jupyter.org/github/pinellolab/scATAC-benchmarking/blob/master/Synthetic_Data/BoneMarrow_cov250/run_methods/run_methods_bonemarrow_cov250.ipynb?flush_cache=true)
   - [clustering evaluation](https://nbviewer.jupyter.org/github/pinellolab/scATAC-benchmarking/blob/master/Synthetic_Data/BoneMarrow_cov250/run_clustering_bonemarrow_cov250.ipynb?flush_cache=true)
   - [UMAP visualization](https://nbviewer.jupyter.org/github/pinellolab/scATAC-benchmarking/blob/master/Synthetic_Data/BoneMarrow_cov250/run_plots_bonemarrow_cov250.ipynb?flush_cache=true)
+  - output
 
 - The _**simulated erythropoiesis (noise level 0.0)**_ dataset (folder **'Erythropoiesis_clean'**)
   - [input](https://github.com/pinellolab/scATAC-benchmarking/tree/master/Synthetic_Data/Erythropoiesis_clean/input)
   - [run_methods](https://nbviewer.jupyter.org/github/pinellolab/scATAC-benchmarking/blob/master/Synthetic_Data/Erythropoiesis_clean/run_methods/run_methods_erythropoesis_clean.ipynb?flush_cache=true)
   - [clustering evaluation](https://nbviewer.jupyter.org/github/pinellolab/scATAC-benchmarking/blob/master/Synthetic_Data/Erythropoiesis_clean/run_clustering_erythropoesis_clean.ipynb?flush_cache=true)
   - [UMAP visualization](https://nbviewer.jupyter.org/github/pinellolab/scATAC-benchmarking/blob/master/Synthetic_Data/Erythropoiesis_clean/run_plots_erythropoesis_clean.ipynb?flush_cache=true)
+  - output
 
 - The _**simulated erythropoiesis (noise level 0.2)**_ dataset (folder **'Erythropoiesis_noisy_p2'**)
   - [input](https://github.com/pinellolab/scATAC-benchmarking/tree/master/Synthetic_Data/Erythropoiesis_noisy_p2/input)
   - [run_methods](https://nbviewer.jupyter.org/github/pinellolab/scATAC-benchmarking/blob/master/Synthetic_Data/Erythropoiesis_noisy_p2/run_methods/run_methods_erythropoesis_noisy_p2.ipynb?flush_cache=true)
   - [clustering evaluation](https://nbviewer.jupyter.org/github/pinellolab/scATAC-benchmarking/blob/master/Synthetic_Data/Erythropoiesis_noisy_p2/run_clustering_erythropoesis_noisy_p2.ipynb?flush_cache=true)
   - [UMAP visualization](https://nbviewer.jupyter.org/github/pinellolab/scATAC-benchmarking/blob/master/Synthetic_Data/Erythropoiesis_noisy_p2/run_plots_erythropoesis_noisy_p2.ipynb?flush_cache=true)
+  - output
 
 - The _**simulated erythropoiesis (noise level 0.4)**_ dataset (folder **'Erythropoiesis_noisy_p4'**)
   - [input](https://github.com/pinellolab/scATAC-benchmarking/tree/master/Synthetic_Data/Erythropoiesis_noisy_p4/input)
   - [run_methods](https://nbviewer.jupyter.org/github/pinellolab/scATAC-benchmarking/blob/master/Synthetic_Data/Erythropoiesis_noisy_p4/run_methods/run_methods_erythropoesis_noisy_p4.ipynb?flush_cache=true)
   - [clustering evaluation](https://nbviewer.jupyter.org/github/pinellolab/scATAC-benchmarking/blob/master/Synthetic_Data/Erythropoiesis_noisy_p4/run_clustering_erythropoesis_noisy_p4.ipynb?flush_cache=true)
   - [UMAP visualization](https://nbviewer.jupyter.org/github/pinellolab/scATAC-benchmarking/blob/master/Synthetic_Data/Erythropoiesis_noisy_p4/run_plots_erythropoesis_noisy_p4.ipynb?flush_cache=true)
+  - output
 
 
 ### Extra
