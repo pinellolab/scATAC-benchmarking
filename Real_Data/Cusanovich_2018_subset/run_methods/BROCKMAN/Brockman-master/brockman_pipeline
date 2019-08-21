@@ -1,0 +1,111 @@
+#!/bin/bash -l
+#insert use commands here
+#  $1 is the task file
+
+source activate ATACseq_BROCKMAN3
+source $1 #read in the config file
+#curIndex=$2 #which sample line are we doing
+curIndex=$LSB_JOBINDEX # for UGES/grid engine style array jobs
+
+mkdir -p $outDir
+# mkdir -p $logDir/BAMs
+mkdir -p $logDir/BEDs
+#mkdir -p $logDir/Fastqs
+mkdir -p $logDir/seqsAndKmers
+
+export id=`awk "NR==$curIndex" $sampleFile` # input the $curIndexth line of this file into $id
+splitID=($id) #split id on whitespace into array that can be accessed like ${splitID[0]}
+export id=${splitID[0]} # First column of the sample file sheet; the sample ID (must be unique)
+export bamfile=${splitID[1]} # the bam file with full path
+# export fq1=${splitID[1]} # the path to the fastq file for read 1
+# export fq2=${splitID[2]} # the path to the fastq file for read 1
+echo  $curIndex : $id #print the current task to the primary output log
+export logPre=$logDir/$id #a prefix to use for the job output log ($logPre.olog) and the file denoting that the job completed ($logPre.done)
+set -e #make it so that the script exits completely if one command fails
+
+
+if [ ! -e $logPre.done ] #makes sure the stuff after "then" is only run if the job was not completed last time.
+then
+	#if [ ! -e $logDir/Fastqs/$id.trim ]
+	#then
+	#	echo trimming reads
+	#	trimmomatic PE $fq1 $fq2 $logDir/Fastqs/$id.1.trimmed.paired.fastq.gz $logDir/Fastqs/$id.1.trimmed.unpaired.fastq.gz $logDir/Fastqs/$id.2.trimmed.paired.fastq.gz $logDir/Fastqs/$id.2.trimmed.unpaired.fastq.gz ILLUMINACLIP:$adapterFile:2:30:10:4:true MINLEN:36
+	#	touch $logDir/Fastqs/$id.trim
+	#else
+	#	echo done trimming Already
+	#fi
+	#if [ ! -e $logDir/BAMs/$id.aligned ]
+	#then
+	#	echo aligning
+	#	bowtie2 -X $maxInsertionSize -x $bowtieIndex -1 $logDir/Fastqs/$id.1.trimmed.paired.fastq.gz -2 $logDir/Fastqs/$id.2.trimmed.paired.fastq.gz -S $logDir/BAMs/$id.sam.gz
+	#	touch $logDir/BAMs/$id.aligned
+	#else
+	#	echo Already aligned
+	#fi
+	# if [ ! -e $logDir/$id.bam ]
+	# then
+	# 	echo copying bam file
+	# 	# samtools view -bS $logDir/BAMs/$id.sam.gz > $logDir/BAMs/$id.temp.bam
+	# 	cp $bamfile $logDir/BAMs/
+	# else
+	# 	echo Already copied bam file
+	# fi
+	if [ ! -e $logDir/BEDs/$id.bed.gz ] 
+	then
+		echo converting to bed
+		bedtools bamtobed -i $bamfile | sort -k1,1 -k2,2n |  gzip -c > $logDir/BEDs/$id.temp.bed.gz
+		mv $logDir/BEDs/$id.temp.bed.gz $logDir/BEDs/$id.bed.gz
+	else
+		echo Already converted to bed
+	fi
+	if [ ! -e $logDir/BEDs/$id.cutsites.bed.gz ]
+	then
+		echo sorting cutsites
+		gzip -dc $logDir/BEDs/$id.bed.gz | grep -v -P '^'mitoChrom | awk 'BEGIN{FS="\t";OFS="\t"};($6=="+"){print $1, $2-'$range', $2+'$range', $1":"$2-'$range'"-"$2+'$range'}($6=="-"){print $1, $3-'$range', $3+'$range', $1":"$3-'$range'"-"$3+'$range'}' | awk 'BEGIN{FS="\t";OFS="\t"}($2>0){print $1, $2, $3, $4}($2<=0){print $1, 0, $3, $4}' | sort -k1,1 -k2,2n | gzip -c > $logDir/BEDs/$id.cutsites.temp.bed.gz
+		mv $logDir/BEDs/$id.cutsites.temp.bed.gz $logDir/BEDs/$id.cutsites.bed.gz
+	else
+		echo "Already made sorted cutsite file"
+	fi
+	if [ ! -e $outDir/$id.stats ]
+	then
+		echo calculating statistics
+		echo "sample loci G1 G2S" > $outDir/$id.stats
+		echo "$id `gzip -dc $logDir/BEDs/$id.cutsites.bed.gz | wc -l` `bedtools intersect -a $G1BED -b $logDir/BEDs/$id.cutsites.bed.gz | wc -l` `bedtools intersect -a $G2SBED -b $logDir/BEDs/$id.cutsites.bed.gz | wc -l`" >> $outDir/$id.stats
+	else
+		echo "Already made stat summary"
+	fi
+	
+	#toss out of bounds entries
+	if [ ! -e $logDir/seqsAndKmers/$id.42bit ]
+	then
+		echo toss out of bounds entries
+		bedtools intersect -a $logDir/BEDs/$id.cutsites.bed.gz -b  $chromBED > $logDir/BEDs/$id.valid.bed
+		#simultaneously merge overlapping peaks and remove duplicates
+		echo merge overlapping entries and make 2bit coordinate file
+		bedtools merge -i $logDir/BEDs/$id.valid.bed | awk 'BEGIN{FS="\t";OFS="\t"};{print $1":"$2"-"$3}' > $logDir/seqsAndKmers/$id.temp.42bit
+		mv $logDir/seqsAndKmers/$id.temp.42bit $logDir/seqsAndKmers/$id.42bit
+	else
+		echo "Already made 42bit files"
+	fi
+	#get sequences and k-mer frequencies
+	if [ ! -e $logDir/seqsAndKmers/$id.fa.gz ]
+	then
+		echo "Getting cut site seqs"
+		twoBitToFa $genome2bit  $logDir/seqsAndKmers/$id.fa -seqList=$logDir/seqsAndKmers/$id.42bit
+		gzip $logDir/seqsAndKmers/$id.fa
+	else
+		echo "Already got cut site seqs"
+	fi
+	if [ ! -e $outDir/$id.freq.gz ]
+	then
+		echo "getting k-mer frequencies"
+		AMUSED -bc -nsz -ds -ns -s 8 -q $logDir/seqsAndKmers/$id.fa.gz -o $logDir/seqsAndKmers/$id.scan
+		cat $logDir/seqsAndKmers/$id.scan | awk 'BEGIN{OFS="\t"; OFS="\t"};{print $1,$3}' | gzip -c > $outDir/$id.freq.gz
+	else
+		echo "Already got k-mer frequencies"
+	fi
+	touch $logPre.done #always the last command - create the file that indicates this task completed successfully
+	echo Job finished: `date`
+else
+	echo Job Already done. To redo, rm $logPre.done
+fi
