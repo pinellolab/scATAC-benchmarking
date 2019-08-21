@@ -21,7 +21,7 @@ Our benchmarking results highlight SnapATAC, cisTopic, and Cusanovich2018 as the
 
 All the analyses performed are illustrated in Jupyter Notebooks. 
 
-For each dataset folder, The folder **'output'** stores all the output files and it consists of five sub-folders including **'feature_matrices'**, **'umap_rds'**, **'clusters'**, **'metrics'**, and **'figures'**.
+Within each dataset folder, the folder **'output'** stores all the output files and it consists of five sub-folders including **'feature_matrices'**, **'umap_rds'**, **'clusters'**, **'metrics'**, and **'figures'**.
 
 ### Real Data
 
