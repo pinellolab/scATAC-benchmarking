@@ -9,8 +9,6 @@ We present a benchmarking framework that was applied to 10 computational methods
 <img src="images/Figure2.png">
 
 
-Please check out our preprint in bioRxiv: [Chen, H. et al. Assessment of computational methods for the analysis of single-cell ATAC-seq data.](https://www.biorxiv.org/content/10.1101/739011v1)
-
 Single Cell ATAC-seq Benchmarking Framework
 -------------------------------------------
 
@@ -252,4 +250,6 @@ Within each dataset folder, the folder **'output'** stores all the output files 
   - [SCRAT: log2transform and adjustlen](https://nbviewer.jupyter.org/github/pinellolab/scATAC-benchmarking/blob/master/Extra/test_SCRAT/test_SCRAT_parameters.ipynb?flush_cache=true)
 
 -------------------------------------------------------------------------------------------------------------------------
+**Citation**: Please cite our preprint if you find this benchmarking work is helpful to your research. [Chen, H. et al. Assessment of computational methods for the analysis of single-cell ATAC-seq data. bioRxiv 739011v1 (Aug 18, 2019)](https://www.biorxiv.org/content/10.1101/739011v1).
+
 **Credits**: H Chen, C Lareau, T Andreani, ME Vinyard, SP Garcia, K Clement, MA Andrade-Navarro, JD Buenrostro, L Pinello
