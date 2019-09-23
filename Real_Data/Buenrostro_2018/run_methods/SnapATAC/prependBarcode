@@ -1,0 +1,31 @@
+#!/usr/bin/perl
+use strict;
+
+my $bamFile = shift;
+my $barcode = shift;
+my $outFile = shift || "$bamFile.withBarcode.bam";
+
+my $usage = "Usage: $0 {bam} {barcode} {?outputbam}";
+die "$usage\nError: Bam is required" unless -e $bamFile;
+die "$usage\nError: Barcode is required" if $barcode eq "";
+
+
+open ST, "samtools 2>&1 |" or die "$usage\nError: samtools is required";
+close ST;
+
+open OUT, "| samtools view -b -o $outFile -" or die $!;
+open IN, "samtools view -H $bamFile |";
+while (my $line = <IN>)
+{
+	print OUT $line;
+}
+close IN;
+
+open IN, "samtools view $bamFile |" or die $!;
+while (my $line = <IN>)
+{
+	print OUT "$barcode:$line";
+}
+print "Finished\n";
+
+
