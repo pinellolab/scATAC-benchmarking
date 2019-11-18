@@ -245,11 +245,15 @@ Within each dataset folder, the folder **'output'** stores all the output files 
 - Test blacklist
   - [SCRAT on the *Buenrostro2018* dataset](https://nbviewer.jupyter.org/github/pinellolab/scATAC-benchmarking/blob/master/Extra/Buenrostro_2018/test_blacklist/SCRAT_buenrostro2018-blacklist-rm.ipynb?flush_cache=true)
   - [SnapATAC on the *Buenrostro2018* dataset](https://nbviewer.jupyter.org/github/pinellolab/scATAC-benchmarking/blob/master/Extra/Buenrostro_2018/test_blacklist/SnapATAC_buenrostro2018-blacklist-rm.ipynb?flush_cache=true)
+  - [SCRAT on the *10X PBMCs* dataset](https://nbviewer.jupyter.org/github/pinellolab/scATAC-benchmarking/blob/master/Extra/10x_PBMC_5k/test_blacklist/SCRAT_10xpbmc_5k_no_blacklist_filtering.ipynb?flush_cache=true)
+  - [SnapATAC on the *10X PBMCs* dataset](https://nbviewer.jupyter.org/github/pinellolab/scATAC-benchmarking/blob/master/Extra/10x_PBMC_5k/test_blacklist/SnapATAC_10xpbmc_5k_no_blacklist_filtering.ipynb?flush_cache=true)
+  - [SCRAT on the *downsampled sci-ATAC-seq-mouse* dataset](https://nbviewer.jupyter.org/github/pinellolab/scATAC-benchmarking/blob/master/Extra/Cusanovich_2018_subset/test_blacklist/SCRAT_cusanovich2018_subset_no_blacklist_filtering.ipynb?flush_cache=true)
+  - [SnapATAC on the *downsampled sci-ATAC-seq-mouse* dataset](https://nbviewer.jupyter.org/github/pinellolab/scATAC-benchmarking/blob/master/Extra/Cusanovich_2018_subset/test_blacklist/SnapATAC_cusanovich2018_subset_no_blacklist_filtering.ipynb?flush_cache=true)
 
 - Test parameter settings
   - [SCRAT: log2transform and adjustlen](https://nbviewer.jupyter.org/github/pinellolab/scATAC-benchmarking/blob/master/Extra/test_SCRAT/test_SCRAT_parameters.ipynb?flush_cache=true)
 
 -------------------------------------------------------------------------------------------------------------------------
-**Citation**: Please cite our preprint if you find this benchmarking work is helpful to your research. [Chen, H. et al. Assessment of computational methods for the analysis of single-cell ATAC-seq data. bioRxiv 739011v1 (Aug 18, 2019)](https://www.biorxiv.org/content/10.1101/739011v1).
+**Citation**: Please cite our preprint if you find this benchmarking work is helpful to your research. [Huidong Chen, Caleb Lareau, Tommaso Andreani, Michael E. Vinyard, Sara P. Garcia, Kendell Clement, Miguel A. Andrade-Navarro, Jason D. Buenrostro & Luca Pinello. Assessment of computational methods for the analysis of single-cell ATAC-seq data. Genome Biology 20, 241 (2019).(https://genomebiology.biomedcentral.com/articles/10.1186/s13059-019-1854-5).
 
 **Credits**: H Chen, C Lareau, T Andreani, ME Vinyard, SP Garcia, K Clement, MA Andrade-Navarro, JD Buenrostro, L Pinello
