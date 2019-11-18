@@ -254,6 +254,6 @@ Within each dataset folder, the folder **'output'** stores all the output files 
   - [SCRAT: log2transform and adjustlen](https://nbviewer.jupyter.org/github/pinellolab/scATAC-benchmarking/blob/master/Extra/test_SCRAT/test_SCRAT_parameters.ipynb?flush_cache=true)
 
 -------------------------------------------------------------------------------------------------------------------------
-**Citation**: Please cite our preprint if you find this benchmarking work is helpful to your research. [Huidong Chen, Caleb Lareau, Tommaso Andreani, Michael E. Vinyard, Sara P. Garcia, Kendell Clement, Miguel A. Andrade-Navarro, Jason D. Buenrostro & Luca Pinello. Assessment of computational methods for the analysis of single-cell ATAC-seq data. Genome Biology 20, 241 (2019).(https://genomebiology.biomedcentral.com/articles/10.1186/s13059-019-1854-5).
+**Citation**: Please cite our preprint if you find this benchmarking work is helpful to your research. [Huidong Chen, Caleb Lareau, Tommaso Andreani, Michael E. Vinyard, Sara P. Garcia, Kendell Clement, Miguel A. Andrade-Navarro, Jason D. Buenrostro & Luca Pinello. **Assessment of computational methods for the analysis of single-cell ATAC-seq data**. *Genome Biology* 20, 241 (2019).](https://genomebiology.biomedcentral.com/articles/10.1186/s13059-019-1854-5).
 
 **Credits**: H Chen, C Lareau, T Andreani, ME Vinyard, SP Garcia, K Clement, MA Andrade-Navarro, JD Buenrostro, L Pinello
