@@ -55,7 +55,7 @@ Within each dataset folder, the folder **'output'** stores all the output files 
   - [input](https://github.com/pinellolab/scATAC-benchmarking/tree/master/Real_Data/Buenrostro_2018_bulkpeaks/input)
   - run_methods
     - [chromVAR-kmers](https://nbviewer.jupyter.org/github/pinellolab/scATAC-benchmarking/blob/master/Real_Data/Buenrostro_2018_bulkpeaks/run_methods/chromVAR/chromVAR_buenrostro2018bulkpeaks_kmers.ipynb?flush_cache=true)
-    - [chromVAR-motifs](https://nbviewer.jupyter.org/github/pinellolab/scATAC-benchmarking/blob/master/Real_Data/Buenrostro_2018_bulkpeaks/run_methods/chromVAR/chromVAR_buenrostro2018bulkpeaks_motifs?flush_cache=true)
+    - [chromVAR-motifs](https://nbviewer.jupyter.org/github/pinellolab/scATAC-benchmarking/blob/master/Real_Data/Buenrostro_2018_bulkpeaks/run_methods/chromVAR/chromVAR_buenrostro2018bulkpeaks_motifs.ipynb?flush_cache=true)
     - [Cicero](https://nbviewer.jupyter.org/github/pinellolab/scATAC-benchmarking/blob/master/Real_Data/Buenrostro_2018_bulkpeaks/run_methods/Cicero/Cicero_buenrostro2018bulkpeaks.ipynb?flush_cache=true)
     - [cisTopic](https://nbviewer.jupyter.org/github/pinellolab/scATAC-benchmarking/blob/master/Real_Data/Buenrostro_2018_bulkpeaks/run_methods/cisTopic/cisTopic_buenrostro2018bulkpeaks.ipynb?flush_cache=true)
     - [Control](https://nbviewer.jupyter.org/github/pinellolab/scATAC-benchmarking/blob/master/Real_Data/Buenrostro_2018_bulkpeaks/run_methods/Control/Control_buenrostro2018bulkpeaks.ipynb?flush_cache=true)
