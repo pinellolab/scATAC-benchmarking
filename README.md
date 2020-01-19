@@ -49,7 +49,7 @@ Within each dataset folder, the folder **'output'** stores all the output files 
     - [Scasat](https://nbviewer.jupyter.org/github/pinellolab/scATAC-benchmarking/blob/master/Real_Data/Buenrostro_2018/extra_clustering/Scasat/Scasat_buenrostro2018.ipynb?flush_cache=true)
     - [SnapATAC](https://nbviewer.jupyter.org/github/pinellolab/scATAC-benchmarking/blob/master/Real_Data/Buenrostro_2018/extra_clustering/SnapATAC/SnapATAC_buenrostro2018.ipynb?flush_cache=true)
   - [end-to-end clustering evaluation](https://nbviewer.jupyter.org/github/pinellolab/scATAC-benchmarking/blob/master/Real_Data/Buenrostro_2018/extra_clustering/run_metrics_buenrostro2018.ipynb?flush_cache=true)
-  - output
+  - [output](https://github.com/pinellolab/scATAC-benchmarking/tree/master/Real_Data/Buenrostro_2018/output)
 
 - The _**Buenrostro2018 using bulk peaks**_ dataset (folder **'Buenrostro_2018_bulkpeaks'**)
   - [input](https://github.com/pinellolab/scATAC-benchmarking/tree/master/Real_Data/Buenrostro_2018_bulkpeaks/input)
@@ -65,7 +65,7 @@ Within each dataset folder, the folder **'output'** stores all the output files 
     - [Scasat](https://nbviewer.jupyter.org/github/pinellolab/scATAC-benchmarking/blob/master/Real_Data/Buenrostro_2018_bulkpeaks/run_methods/Scasat/Scasat_buenrostro2018bulkpeaks.ipynb?flush_cache=true)
   - [clustering evaluation](https://nbviewer.jupyter.org/github/pinellolab/scATAC-benchmarking/blob/master/Real_Data/Buenrostro_2018_bulkpeaks/run_clustering_buenrostro2018bulkpeaks.ipynb?flush_cache=true)
   - [UMAP visualization](https://nbviewer.jupyter.org/github/pinellolab/scATAC-benchmarking/blob/master/Real_Data/Buenrostro_2018_bulkpeaks/run_umap_buenrostro2018bulkpeaks.ipynb?flush_cache=true)
-  - output
+  - [output](https://github.com/pinellolab/scATAC-benchmarking/tree/master/Real_Data/Buenrostro_2018_bulkpeaks/output)
 
 - The _**10X PBMCs**_ dataset (folder **'10x_PBMC_5k'**)
   - [input](https://github.com/pinellolab/scATAC-benchmarking/tree/master/Real_Data/10x_PBMC_5k/input)
@@ -92,7 +92,7 @@ Within each dataset folder, the folder **'output'** stores all the output files 
     - [Scasat](https://nbviewer.jupyter.org/github/pinellolab/scATAC-benchmarking/blob/master/Real_Data/Buenrostro_2018/extra_clustering/Scasat/Scasat_10xpbmc5k.ipynb?flush_cache=true)
     - [SnapATAC](https://nbviewer.jupyter.org/github/pinellolab/scATAC-benchmarking/blob/master/Real_Data/Buenrostro_2018/extra_clustering/SnapATAC/SnapATAC_10xpbmc5k.ipynb?flush_cache=true)
   - [end-to-end clustering evaluation](https://nbviewer.jupyter.org/github/pinellolab/scATAC-benchmarking/blob/master/Real_Data/10x_PBMC_5k/extra_clustering/run_metrics_10xpbmc.ipynb?flush_cache=true)
-  - output
+  - [output](https://github.com/pinellolab/scATAC-benchmarking/tree/master/Real_Data/10x_PBMC_5k/output)
 
 - The _**downsampled sci-ATAC-seq-mouse**_ dataset (folder **'Cusanovich_2018_subset'**)
   - [input](https://github.com/pinellolab/scATAC-benchmarking/tree/master/Real_Data/Cusanovich_2018_subset/input)
@@ -119,7 +119,7 @@ Within each dataset folder, the folder **'output'** stores all the output files 
     - [Scasat](https://nbviewer.jupyter.org/github/pinellolab/scATAC-benchmarking/blob/master/Real_Data/Cusanovich_2018_subset/extra_clustering/Scasat/Scasat_cusanovich2018subset.ipynb?flush_cache=true)
     - [SnapATAC](https://nbviewer.jupyter.org/github/pinellolab/scATAC-benchmarking/blob/master/Real_Data/Cusanovich_2018_subset/extra_clustering/SnapATAC/SnapATAC_cusanovich2018subset.ipynb?flush_cache=true)
   - [end-to-end clustering evaluation](https://nbviewer.jupyter.org/github/pinellolab/scATAC-benchmarking/blob/master/Real_Data/Cusanovich_2018_subset/extra_clustering/run_metrics_cusanovich2018subset.ipynb?flush_cache=true)
-  - output
+  - [output](https://github.com/pinellolab/scATAC-benchmarking/tree/master/Real_Data/Cusanovich_2018_subset/output)
 
 - The _**full sci-ATAC-seq-mouse**_ dataset (folder **'Cusanovich_2018'**)
   - [input](https://github.com/pinellolab/scATAC-benchmarking/tree/master/Real_Data/Cusanovich_2018/input)
@@ -127,7 +127,7 @@ Within each dataset folder, the folder **'output'** stores all the output files 
     - [SnapATAC](https://nbviewer.jupyter.org/github/pinellolab/scATAC-benchmarking/blob/master/Real_Data/Cusanovich_2018/run_methods/SnapATAC/SnapATAC_cusanovich2018.ipynb?flush_cache=true)
   - [clustering evaluation](https://nbviewer.jupyter.org/github/pinellolab/scATAC-benchmarking/blob/master/Real_Data/Cusanovich_2018/run_clustering_cusanovich2018.ipynb?flush_cache=true)
   - [UMAP visualization](https://nbviewer.jupyter.org/github/pinellolab/scATAC-benchmarking/blob/master/Real_Data/Cusanovich_2018/run_umap_cusanovich2018.ipynb?flush_cache=true)
-  - output
+  - [output](https://github.com/pinellolab/scATAC-benchmarking/tree/master/Real_Data/Cusanovich_2018/output)
 
 
 ### Synthetic Data
