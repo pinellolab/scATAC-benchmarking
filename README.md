@@ -151,14 +151,14 @@ Within each dataset folder, the folder **'output'** stores all the output files 
   - [input](https://github.com/pinellolab/scATAC-benchmarking/tree/master/Synthetic_Data/BoneMarrow_noisy_p2/input)
   - [run_methods](https://nbviewer.jupyter.org/github/pinellolab/scATAC-benchmarking/blob/master/Synthetic_Data/BoneMarrow_noisy_p2/run_methods/run_methods_bonemarrow_noisy_p2.ipynb?flush_cache=true)
   - [clustering evaluation](https://nbviewer.jupyter.org/github/pinellolab/scATAC-benchmarking/blob/master/Synthetic_Data/BoneMarrow_noisy_p2/run_clustering_bonemarrow_noisy_p2.ipynb?flush_cache=true)
-  - [UMAP visualization](https://nbviewer.jupyter.org/github/pinellolab/scATAC-benchmarking/blob/master/Synthetic_Data/BoneMarrow_noisy_p2/run_plots_bonemarrow_noisy_p2.ipynb?flush_cache=true)
+  - [UMAP visualization](https://nbviewer.jupyter.org/github/pinellolab/scATAC-benchmarking/blob/master/Synthetic_Data/BoneMarrow_noisy_p2/run_plots_bonemarrow_noisyp2.ipynb?flush_cache=true)
   - [output](https://github.com/pinellolab/scATAC-benchmarking/tree/master/Synthetic_Data/BoneMarrow_noisy_p2/output)
 
 - The _**simulated bone marrow (noise level 0.4)**_ dataset (folder **'BoneMarrow_noisy_p4'**)
   - [input](https://github.com/pinellolab/scATAC-benchmarking/tree/master/Synthetic_Data/BoneMarrow_noisy_p4/input)
   - [run_methods](https://nbviewer.jupyter.org/github/pinellolab/scATAC-benchmarking/blob/master/Synthetic_Data/BoneMarrow_noisy_p4/run_methods/run_methods_bonemarrow_noisy_p4.ipynb?flush_cache=true)
   - [clustering evaluation](https://nbviewer.jupyter.org/github/pinellolab/scATAC-benchmarking/blob/master/Synthetic_Data/BoneMarrow_noisy_p4/run_clustering_bonemarrow_noisy_p4.ipynb?flush_cache=true)
-  - [UMAP visualization](https://nbviewer.jupyter.org/github/pinellolab/scATAC-benchmarking/blob/master/Synthetic_Data/BoneMarrow_noisy_p4/run_plots_bonemarrow_noisy_p4.ipynb?flush_cache=true)
+  - [UMAP visualization](https://nbviewer.jupyter.org/github/pinellolab/scATAC-benchmarking/blob/master/Synthetic_Data/BoneMarrow_noisy_p4/run_plots_bonemarrow_noisyp4.ipynb?flush_cache=true)
   - [output](https://github.com/pinellolab/scATAC-benchmarking/tree/master/Synthetic_Data/BoneMarrow_noisy_p4/output)
 
 - The _**simulated bone marrow (coverage 5k reads)**_ dataset (folder **'BoneMarrow_cov5000'**)
@@ -207,14 +207,14 @@ Within each dataset folder, the folder **'output'** stores all the output files 
   - [input](https://github.com/pinellolab/scATAC-benchmarking/tree/master/Synthetic_Data/Erythropoiesis_noisy_p2/input)
   - [run_methods](https://nbviewer.jupyter.org/github/pinellolab/scATAC-benchmarking/blob/master/Synthetic_Data/Erythropoiesis_noisy_p2/run_methods/run_methods_erythropoesis_noisy_p2.ipynb?flush_cache=true)
   - [clustering evaluation](https://nbviewer.jupyter.org/github/pinellolab/scATAC-benchmarking/blob/master/Synthetic_Data/Erythropoiesis_noisy_p2/run_clustering_erythropoesis_noisy_p2.ipynb?flush_cache=true)
-  - [UMAP visualization](https://nbviewer.jupyter.org/github/pinellolab/scATAC-benchmarking/blob/master/Synthetic_Data/Erythropoiesis_noisy_p2/run_plots_erythropoesis_noisy_p2.ipynb?flush_cache=true)
+  - [UMAP visualization](https://nbviewer.jupyter.org/github/pinellolab/scATAC-benchmarking/blob/master/Synthetic_Data/Erythropoiesis_noisy_p2/run_plots_erythropoesis_noisyp2.ipynb?flush_cache=true)
   - [output](https://github.com/pinellolab/scATAC-benchmarking/tree/master/Synthetic_Data/Erythropoiesis_noisy_p2/output)
 
 - The _**simulated erythropoiesis (noise level 0.4)**_ dataset (folder **'Erythropoiesis_noisy_p4'**)
   - [input](https://github.com/pinellolab/scATAC-benchmarking/tree/master/Synthetic_Data/Erythropoiesis_noisy_p4/input)
   - [run_methods](https://nbviewer.jupyter.org/github/pinellolab/scATAC-benchmarking/blob/master/Synthetic_Data/Erythropoiesis_noisy_p4/run_methods/run_methods_erythropoesis_noisy_p4.ipynb?flush_cache=true)
   - [clustering evaluation](https://nbviewer.jupyter.org/github/pinellolab/scATAC-benchmarking/blob/master/Synthetic_Data/Erythropoiesis_noisy_p4/run_clustering_erythropoesis_noisy_p4.ipynb?flush_cache=true)
-  - [UMAP visualization](https://nbviewer.jupyter.org/github/pinellolab/scATAC-benchmarking/blob/master/Synthetic_Data/Erythropoiesis_noisy_p4/run_plots_erythropoesis_noisy_p4.ipynb?flush_cache=true)
+  - [UMAP visualization](https://nbviewer.jupyter.org/github/pinellolab/scATAC-benchmarking/blob/master/Synthetic_Data/Erythropoiesis_noisy_p4/run_plots_erythropoesis_noisyp4.ipynb?flush_cache=true)
   - [output](https://github.com/pinellolab/scATAC-benchmarking/tree/master/Synthetic_Data/Erythropoiesis_noisy_p4/output)
 
 
